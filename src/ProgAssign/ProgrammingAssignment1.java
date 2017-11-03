@@ -27,8 +27,17 @@ public class ProgrammingAssignment1 {
 		//Create a String saying "Wow, the Dodgers are in the World Series!"
 		//Write your code here....
 		 String string1 = "Wow, the Dodgers are in the World Series!";
-		 String part = string1.substring(28,40);
-         System.out.println(part);
+		 String part1 = string1.substring(28,40);
+		 String part2 = string1.substring(5,16);
+         System.out.println(part1);
+         System.out.println(part2);
+         System.out.println(part1+ ", "+part2);
+         
+         int year = 1988;
+         int hasBeen = 2017 - year;
+         String statement = "It's been this many years since the Dogers won a World Series: "+hasBeen;
+         System.out.println(statement);
+         
 		
 		
 	}
